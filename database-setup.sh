@@ -4,6 +4,9 @@ sudo apt-get install --assume-yes gnupg apt-utils gnupg2 curl gcc
 
 sudo apt-get update
 
+. $HOME/.nvm/nvm.sh
+nvm install 10.24.1
+
 sudo apt-get install --assume-yes mysql-server-8.0
 
 sudo usermod -d /var/lib/mysql mysql
